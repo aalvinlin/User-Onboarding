@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana;
+
+    /* border: 2px solid lightseagreen */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.appDiv {
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+}
+
+.inputDiv {
+    max-width: 500px;
+    
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2rem auto;
+}
+
+input {
+    margin: 1rem;
+
+    line-height: 4rem;
+    padding: 0 1rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+button {
+
+    font-size: 3rem;
+
+    display: block;
+    line-height: 4.5rem;
+
+    padding: 0 3rem;
+    margin: 2rem auto;
+}
