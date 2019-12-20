@@ -26,7 +26,7 @@ We want to create a form to onboard a new user to our system. We need _at least_
 
 Form validation is one of the facets of an application that makes it feel polished and controlled from a user perspective. With that in mind, implement the following:
 
-- [ ] Using Yup, set up _at least_ two different validations for each field along with custom error codes that will display on screen when validation fails.
+- [✅] Using Yup, set up _at least_ two different validations for each field along with custom error codes that will display on screen when validation fails.
 
 ## STEP 3 - Make a POST Request
 
@@ -41,7 +41,7 @@ Being able to `POST` data is a key skill of any developer, no matter your skill 
 
 When you get your data back, you will want to do something with it, right? Let's display a list of users in our app.
 
-- [ ] Set up a state property called `users` that is initialized with an empty array
+- [✅] Set up a state property called `users` that is initialized with an empty array
 - [ ] Every time you make a `POST` request, and get that new user data back, update your `users` state with the new user added to the array
 - [ ] Render `users` in your app. This can be done in the `Form` component, or you can pass the array down to another component and render the `users` there
 

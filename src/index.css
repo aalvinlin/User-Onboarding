@@ -33,7 +33,7 @@ h1 {
     display: flex;
     justify-content: space-between;
 
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 input {
@@ -57,4 +57,16 @@ button {
 
     padding: 0 3rem;
     margin: 2rem auto;
+}
+
+.errors {
+    font-size: 1rem;
+
+    color: #CC3333;
+    font-weight: bold;
+
+    text-align: center;
+    
+    height: 1rem;
+    margin: 0;
 }
